@@ -1,10 +1,10 @@
 {
-  "name": "sass-extract-js",
-  "version": "0.4.0",
-  "description": "Plugin for sass-extract to convert Sass variables into a plain JS object",
+  "name": "scss-extract-js",
+  "version": "0.1.0",
+  "description": "Plugin for scss-extract to convert Sass variables into a plain JS object",
   "keywords": [
     "sass",
-    "sass-extract",
+    "scss-extract",
     "js",
     "styled-components",
     "theme",
@@ -13,7 +13,7 @@
   "engines": {
     "node": ">=6"
   },
-  "main": "sass-extract-js.js",
+  "main": "scss-extract-js.js",
   "files": [
     "lib"
   ],
@@ -24,22 +24,19 @@
   },
   "repository": "git@github.com:adamgruber/sass-extract-js.git",
   "bugs": "https://github.com/adamgruber/sass-extract-js/issues",
-  "author": "Adam Gruber <adamgruber@me.com>",
+  "author": "Somesh Yadav <somesh19.1996@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "camel-case": "^3.0.0"
+    "camel-case": "^3.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "eslint": "^5.2.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "jest": "^23.4.1",
-    "node-sass": "^4.9.2",
-    "sass-extract": "^2.1.0"
+    "jest": "^23.4.1"
   },
-  "peerDependencies": {
-    "sass-extract": "*"
-  },
+  "peerDependencies": {},
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "./coverage",
