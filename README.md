@@ -1,8 +1,6 @@
 scss-extract-js
 ---
 
-[![npm](https://img.shields.io/npm/v/sass-extract-js.svg?style=flat-square)](http://www.npmjs.com/package/sass-extract-js)
-
 Plugin for [scss-extract][scss-extract] to convert Sass global variables into a plain JS object.
 
 ## Huh? Why?
@@ -16,7 +14,7 @@ You'll need to install [scss-extract][scss-extract], [scss-extract-loader][scss-
 ```sh
 $ yarn add scss-extract scss-extract-loader sass scss-extract-js
 ```
-
+ 
 *(npm install works too)*
 
 ## Nice! How do I use it?
@@ -87,11 +85,11 @@ Option Name | Default | Description
 `camelCase` | true    | Should SASS variable names be converted to camelCase
 
 ### Options Usage
-#### sass-extract Plugin Options
+#### scss-extract Plugin Options
 As of scss-extract 2.0.0, options can be passed to plugins. Here's how:
 
 ```js
-const rendered = sassExtract.renderSync({
+const rendered = scssExtract.renderSync({
   file: './path/to/vars.scss'
 }, {
   plugins: [{ plugin: 'scss-extract-js', options: { camelCase: false } }]
@@ -123,11 +121,11 @@ This project is open source. I've tried to make sure it works for a lot of use c
 
 MIT
 
-[issues]: https://github.com/adamgruber/sass-extract-js/issues
-[pr]: https://github.com/adamgruber/sass-extract-js/pulls
+[issues]: https://github.com/super-user-permission/scss-extract-js/issues
+[pr]: https://github.com/super-user-permission/scss-extract-js/pulls
 [styled-components]: https://www.styled-components.com/
 [theming]: https://www.styled-components.com/docs/advanced#theming
-[node-sass]: https://github.com/sass/node-sass#options
-[sass-extract]: https://github.com/jgranstrom/sass-extract
-[sass-extract-loader]: https://github.com/jgranstrom/sass-extract-loader
+[sass]: https://github.com/sass/dart-sass
+[scss-extract]: https://github.com/wuz/scss-extract
+[scss-extract-loader]: github.com/wuz/scss-extract-loader
 [glamorous]: https://github.com/paypal/glamorous

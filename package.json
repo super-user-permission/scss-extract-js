@@ -18,12 +18,12 @@
     "lib"
   ],
   "scripts": {
-    "lint": "eslint lib test sass-extract-js.js",
+    "lint": "eslint lib test scss-extract-js.js",
     "tdd": "jest --watch",
     "test": "jest"
   },
-  "repository": "git@github.com:adamgruber/sass-extract-js.git",
-  "bugs": "https://github.com/adamgruber/sass-extract-js/issues",
+  "repository": "git@github.com:super-user-permission/scss-extract-js.git",
+  "bugs": "https://github.com/super-user-permission/scss-extract-js/issues",
   "author": "Somesh Yadav <somesh19.1996@gmail.com>",
   "license": "MIT",
   "dependencies": {
